@@ -58,7 +58,7 @@
 .secondtext {
   width: 327px;
   height: 146px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
