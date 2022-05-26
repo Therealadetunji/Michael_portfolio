@@ -1,27 +1,86 @@
-
 /* Section 1 */
 
-
 .toolbar {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 24px;
-    margin-right: 19px;
-    margin-top: 58px;
-
+  display: flex;
+  justify-content: space-between;
+  margin-left: 24px;
+  margin-right: 19px;
+  margin-top: 58px;
 }
 
 .logo {
-    width: 76px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #6070FF;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
+  width: 76px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
 }
 
+/* Section 2: Headline*/
+
+.headline {
+  width: 375px;
+  height: 718px;
+  background-image: url("./images/header-shapes\ mobile.png");
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 70px 24px;
+}
+
+.headline .h1 {
+  width: 327px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.firsttext {
+  width: 327px;
+  height: 150px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  margin-top: 12px;
+}
+.secondtext {
+  width: 327px;
+  height: 146px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+.thirdtext {
+  width: 117px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.Twitterlogo,
+.linkedinlogo,
+.Maillogo,
+.githublogo,
+.Twofingerslogo {
+  margin-right: 9px;
+}
