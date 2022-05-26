@@ -9,7 +9,7 @@
 
 -html and css
 - Frameworks
-- Technologies used
+- html and css
 
 
 
