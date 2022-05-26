@@ -5,6 +5,7 @@
   margin-right: 19px;
   margin-top: 58px;
 }
+
 .logo {
   width: 76px;
   height: 20px;
@@ -12,13 +13,14 @@
   align-items: center;
   text-align: center;
   color: #6070ff;
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
   text-decoration: none;
 }
+
 .headline {
   width: 375px;
   height: 718px;
@@ -28,7 +30,8 @@
   align-items: flex-start;
   padding: 70px 24px;
 }
-.headline, .h1 {
+
+.headline.h1 {
   width: 327px;
   height: 90px;
   display: flex;
@@ -37,10 +40,11 @@
   order: 0;
   flex-grow: 0;
 }
+
 .firsttext {
   width: 327px;
   height: 150px;
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -50,6 +54,7 @@
   color: #172b4d;
   margin-top: 12px;
 }
+
 .secondtext {
   width: 327px;
   height: 146px;
@@ -60,10 +65,11 @@
   line-height: 24px;
   color: #344563;
 }
+
 .thirdtext {
   width: 117px;
   height: 24px;
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
