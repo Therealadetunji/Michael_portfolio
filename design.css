@@ -1,0 +1,27 @@
+
+/* Section 1 */
+
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 19px;
+    margin-top: 58px;
+
+}
+
+.logo {
+    width: 76px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6070FF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+}
+
