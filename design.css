@@ -406,24 +406,43 @@ h2 {
   margin-left: -150px;
 }
 
-.lasttxt2 {
+.bttn {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 157px;
-  height: 40px;
-  font-family: "Poppins", sans-serif;
+  flex-direction: row;
+  align-items: center;
+  padding: 18px;
+  gap: 24px;
+  width: 169px;
+  height: 48px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 17px;
   line-height: 24px;
-  align-items: center;
+  letter-spacing: 0.03em;
+  border-radius: 8px;
+  margin: 8px;
+  margin-right: 175px;
+}
+
+.lasttxt2 {
+  border: 1px solid #6070ff;
   color: #396df2;
-  margin-right: 180px;
-  padding-right: 36px;
-  background: #fff;
-  border: 1px solid #396df2;
-  border-radius: 10px;
+  background-color: #fff;
+}
+
+.lasttxt2:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.lasttxt2:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.lasttxt2:disabled {
+  border: 1px solid #c1c7d0;
+  color: #5e6c84;
 }
 
 .secondlists {
