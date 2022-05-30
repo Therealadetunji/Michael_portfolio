@@ -247,7 +247,7 @@ ul {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070ff;
-  flex-grow: 0;
+  
 }
 
 .tag2 {
@@ -270,7 +270,6 @@ ul {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070ff;
-  order: 0;
 }
 
 .tag3 {
@@ -424,7 +423,7 @@ h2 {
   flex-grow: 0;
   margin-right: 200px;
   padding-right: 36px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #396df2;
   border-radius: 10px;
 }
@@ -441,9 +440,10 @@ h2 {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
   margin-left: 36px;
 }
+
 .framelist {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -472,9 +472,6 @@ h2 {
   margin: -475px;
   margin-left: 80px;
   margin-right: -145px;
-}
-
-.flexbox-container {
 }
 
 .flexbox-item {
