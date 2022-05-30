@@ -407,20 +407,19 @@ h2 {
 }
 
 .lasttxt2 {
-  width: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 157px;
   height: 40px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
   align-items: center;
   color: #396df2;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin-right: 200px;
+  margin-right: 180px;
   padding-right: 36px;
   background: #fff;
   border: 1px solid #396df2;
