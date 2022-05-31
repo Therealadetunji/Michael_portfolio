@@ -660,3 +660,89 @@ h2 {
   border-bottom: 1px solid #dfe1e6;
   margin-right: 27px;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background: #6070FF;
+  height: fit-content;
+  padding: 24px 24px 24px 24px;
+}
+
+.contact-me {
+  margin-top: 100px;
+  display: flex;
+  align-self: center;
+  font-family: 'Poppins';
+  font-size: 40px;
+  color: #fff;
+}
+
+.contact-description {
+  font-family: 'Poppins';
+  font-size: 20px;
+  text-align: center;
+  color: #EBEBFF;
+}
+
+.form-contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 24px 24px 24px 24px;
+}
+
+.form-contact-boxes {
+  width: 80%;
+  height: 18px;
+  font-family: 'Poppins';
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  padding-left: 24px;
+  background: #fff;
+  border: 0px solid;
+}
+
+.input-background {
+  padding: 15px 16px 15px 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 30%;
+  height: 48px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.textarea {
+  width: 80%;
+  height: 170px;
+  font-family: 'Poppins';
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  padding-left: 24px;
+  background: #fff;
+  border: 0px solid;  
+}
+
+.textarea-div {
+  padding: 15px 16px 15px 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 30%;
+  height: 180px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 15px;
+}
