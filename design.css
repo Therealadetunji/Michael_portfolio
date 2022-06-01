@@ -97,8 +97,6 @@ body {
   margin-right: 9px;
 }
 
-/*work section*/
-
 #card-works {
   display: grid;
   grid-template-columns: auto;
@@ -148,6 +146,7 @@ body {
   width: 295px;
   height: 80px;
 }
+
 .left-block .project-title {
   width: 295px;
   height: 36px;
@@ -159,6 +158,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .left-block .canopy {
   display: flex;
   flex-direction: row;
@@ -307,7 +307,6 @@ body {
   color: #5e6c84;
 }
 
-/*About Myself */
 #aboutmyself {
   display: flex;
   flex-direction: column;
@@ -319,8 +318,6 @@ body {
   border-top-right-radius: 80px;
   background: #fff;
 }
-
-/* top Div */
 
 .top {
   display: flex;
@@ -549,7 +546,6 @@ body {
   border-bottom: 1px solid #dfe1e6;
 }
 
-/*contact form*/
 .white-bg {
   background-color: #fff;
   width: 375px;
