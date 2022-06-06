@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
-  margin:0;
+  margin: 0;
   padding: 0;
   font-family: "fira sans", sans-serif;
 }
 
-html, body {
- overflow: hidden;
+html,
+body {
+  overflow: hidden;
 }
 
 body {
@@ -270,7 +271,7 @@ body {
   align-items: center;
 }
 
- .btn {
+.btn {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -670,6 +671,3 @@ textarea {
 }
 
 /* Media Queries */
-
-
-
