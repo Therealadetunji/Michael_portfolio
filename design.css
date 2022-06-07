@@ -945,13 +945,13 @@ body {
   .about-myself .second .skill {
     width: 590px;
   }
+
   .second .lname {
     width: 0px;
   }
-  ul {
-    
-      list-style-type: none;
-  
+
+  .desktop-version { 
+    list-style-type: none;
   }
 
   .contact {
