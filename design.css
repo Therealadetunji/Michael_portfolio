@@ -28,7 +28,14 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  transition-duration: 1000ms;
+  
 }
+
+.logo:hover {
+  transform: rotate(360deg);
+}
+
 
 .logo a {
   color: #6070ff;
@@ -41,7 +48,10 @@ body {
   font-size: 18px;
   line-height: 20px;
   text-decoration: none;
+  
+  
 }
+
 
 .headline {
   display: flex;
@@ -133,6 +143,12 @@ body {
   background: #e5e5e5;
   background-color: white;
   padding-left: 17px;
+}
+
+#work .card-work .left img:hover {
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
 }
 
 .card-work {
@@ -326,10 +342,11 @@ body {
   text-align: center;
   display: flex;
   align-items: flex-start;
+  transition-duration: 250ms;
 }
 
 .card-work .btn-project:hover {
-  background: #6070ff;
+  background: #040f70;
   color: #fff;
 }
 
@@ -390,10 +407,11 @@ body {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.03em;
+  transition-duration: 250ms;
 }
 
 .btn-resume:hover {
-  background: #6070ff;
+  background: #040f70;
   color: #fff;
 }
 
@@ -565,6 +583,7 @@ body {
   margin-top: 340px;
   outline: none;
   border: none;
+  transform: translate(3ch, 3mm);
 }
 
 #name,
@@ -621,10 +640,11 @@ body {
   padding: 4px 14px;
   margin-left: 20px;
   border: 1px solid #fff;
+  transition-duration: 250ms;
 }
 
 .get-touch:hover {
-  background-color: #6070ff;
+  background-color: #040f70;
   color: #fff;
   border: 1px solid #6070ff;
 }
@@ -1008,6 +1028,7 @@ body {
     margin-left: 2%;
   }
 }
+
 
 @media only screen and (max-width: 768px) {
   .desktop-version {
