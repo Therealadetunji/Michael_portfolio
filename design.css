@@ -29,13 +29,11 @@ body {
   align-items: center;
   text-align: center;
   transition-duration: 1000ms;
-  
 }
 
 .logo:hover {
   transform: rotate(360deg);
 }
-
 
 .logo a {
   color: #6070ff;
@@ -48,10 +46,7 @@ body {
   font-size: 18px;
   line-height: 20px;
   text-decoration: none;
-  
-  
 }
-
 
 .headline {
   display: flex;
@@ -146,9 +141,9 @@ body {
 }
 
 #work .card-work .left img:hover {
-  -ms-transform: scale(1.1); 
-  -webkit-transform: scale(1.1); 
-  transform: scale(1.1); 
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .card-work {
@@ -1028,7 +1023,6 @@ body {
     margin-left: 2%;
   }
 }
-
 
 @media only screen and (max-width: 768px) {
   .desktop-version {
