@@ -5,322 +5,396 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="design.css" />
-    <title>Document</title>
+    <title>Michael Portfolio</title>
   </head>
   <body>
-    <div class="main-container">
-      <header class="toolbar">
-        <div class="logo">
-          <a href="#">My logo</a>
-        </div>
+    <header class="toolbar">
+      <div class="logo">
+        <a id="LOGO" href="#"><b>My Logo</b></a>
+      </div>
+      <nav class="icon">
+        <img src="Images/Union.png" alt="Menu icon" />
+      </nav>
+      <div class="menu">
+        <ul class="menu-bar">
+          <li class="MB"><a href="#">Portfolio</a></li>
+          <li class="MB"><a href="#">About</a></li>
+          <li class="MB"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <section class="headline">
+      <h1>I'm Michael <br />Glad to see you!</h1>
+      <p>
+        I’m a software developer! I can help you build a product ,feature or
+        website Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don’t hestiate to contact me.
+      </p>
+      <h3 class="connect">LET'S CONNECT</h3>
+      <div class="social-media-icons">
+        <ul>
+          <li>
+            <a href="#"
+              ><img
+                src="./Images/twitter.png"
+                alt="Twitter Icon"
+                class="twitter"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="./Images/Linkedin-icon.png"
+                alt="linkedin Icon"
+                class="linkedin"
+            /></a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="./Images/Mail.png"
+                alt="Mail Icon"
+                class="mail"
+            /></a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="./Images/Github.png"
+                alt="Github Icon"
+                class="github"
+            /></a>
+          </li>
 
-        <nav class="icon">
-          <img src="./images/Union.png" alt="Menu icon" />
-        </nav>
-      </header>
-
-      <section class="headline">
-        <h1>I’m Michael Glad to see you!</h1>
-        <p>
-          I’m a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
-          me.
-        </p>
-        <h3>LET’S CONNECT</h3>
-
-        <div class="social-media-icons">
-          <img src="./images/twitter.png" alt="twitter" class="Twitterlogo" />
+          <li>
+            <a href="#"
+              ><img
+                src="./Images/twofingers.png"
+                alt="Other Icon"
+                class="other"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="work">
+      <div class="card-work" id="card-one">
+        <div class="left">
           <img
-            src="./images/Linkedin-icon.png"
-            alt="Linkedin"
-            class="linkedinlogo"
-          />
-          <img src="./images/Mail.png" alt="Mail" class="Maillogo" />
-          <img src="./images/Github.png" alt="Github" class="githublogo" />
-          <img
-            src="./images/twofingers.png"
-            alt="twofingers"
-            class="Twofingerslogo"
-          />
-        </div>
-      </section>
-
-      <!-- WORK SECTION-->
-      <section id="card-works">
-        <div class="singlecard">
-          <img
-            class="portfolioimage"
-            src="./images/Snapshoot-Portfolio.png"
-            alt="Snapshoot-Portfolio"
-          />
-          <div class="left-block">
-            <div class="title-box">
-              <h2 class="project-title">Tonic</h2>
-              <div class="canopy">
-                <div class="client">CANOPY</div>
-                <div class="counter"></div>
-                <div class="role">Back End Dev</div>
-                <div class="counter"></div>
-                <div class="year">2015</div>
-              </div>
-            </div>
-            <p class="description-box">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <div class="tag-box">
-              <ul class="tags">
-                <li class="tag">HTML</li>
-                <li class="tag">CSS</li>
-                <li class="tag">Javascript</li>
-              </ul>
-            </div>
-            <div class="action-box">
-              <button class="btn">See Project</button>
-            </div>
-          </div>
-        </div>
-        <!-- End of first card -->
-        <div class="card-works">
-          <img
-            src="./images/work/multipost.png"
-            alt="Tonic Image"
+            src="Images/Snapshoot-Portfolio.png"
+            alt="Tonic image"
             class="snapshot-portfolio"
           />
-          <div class="left-block">
-            <div class="title-box">
-              <h2 class="project-title">Multi-post Stories</h2>
-              <div class="canopy">
-                <div class="client">CANOPY</div>
-                <div class="counter"></div>
-                <div class="role">Back End Dev</div>
-                <div class="counter"></div>
-                <div class="year">2015</div>
-              </div>
-            </div>
-            <p class="description-box">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <div class="tag-box">
-              <ul class="tags">
-                <li class="tag">HTML</li>
-                <li class="tag">CSS</li>
-                <li class="tag">Javascript</li>
-              </ul>
-            </div>
-            <div class="action-box">
-              <button class="btn">See Project</button>
-            </div>
+          <img
+            src="Images/Snapshoot-Portfolio-nature.png"
+            alt="nature image"
+            class="desktop"
+          />
+        </div>
+        <div class="right">
+          <nav class="title">
+            <h2 class="project-title">Tonic</h2>
+            <nav class="content">
+              <div class="clint">CANOPY</div>
+              <div class="counter"></div>
+              <div class="role">Back End Dev</div>
+              <div class="counter"></div>
+              <div class="year">2015</div>
+            </nav>
+          </nav>
+          <p class="description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <div class="main-button">
+            <ul class="buttons">
+              <li class="button">HTML</li>
+              <li class="button">CSS</li>
+              <li class="button">Javascript</li>
+            </ul>
+          </div>
+          <div class="more">
+            <button class="btn btn-project" type="button">See Project</button>
           </div>
         </div>
-        <!-- End of second card -->
-        <div class="card-works">
+      </div>
+      <div class="card-work" id="card-two">
+        <div class="left">
           <img
-            src="./images/work/Tonic.png"
-            alt="Tonic Image"
+            src="Images/work/multipost.png"
+            alt="professional image"
             class="snapshot-portfolio"
           />
-          <div class="left-block">
-            <div class="title-box">
-              <h2 class="project-title">Tonic</h2>
-              <div class="canopy">
-                <div class="client">CANOPY</div>
-                <div class="counter"></div>
-                <div class="role">Back End Dev</div>
-                <div class="counter"></div>
-                <div class="year">2015</div>
-              </div>
-            </div>
-            <p class="description-box">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <div class="tag-box">
-              <ul class="tags">
-                <li class="tag">HTML</li>
-                <li class="tag">CSS</li>
-                <li class="tag">Javascript</li>
-              </ul>
-            </div>
-            <div class="action-box">
-              <button class="btn">See Project</button>
-            </div>
+          <img
+            src="./Images/second-desktop-photo.png"
+            alt="professional image"
+            class="desktop"
+          />
+        </div>
+        <div class="right">
+          <nav class="title">
+            <h2 class="project-title">Multi-Post Stories</h2>
+            <nav class="content">
+              <div class="clint">Canopy</div>
+              <div class="counter"></div>
+              <div class="role">Back End Dev</div>
+              <div class="counter"></div>
+              <div class="year">2015</div>
+            </nav>
+          </nav>
+          <p class="description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <div class="main-button">
+            <ul class="buttons">
+              <li class="button">HTML</li>
+              <li class="button">CSS</li>
+              <li class="button">Javascript</li>
+            </ul>
+          </div>
+          <div class="more">
+            <button class="btn btn-project" type="button">See Project</button>
           </div>
         </div>
-        <!-- End of third card -->
-        <div class="card-works">
+      </div>
+      <div class="card-work" id="card-three">
+        <div class="left">
           <img
-            src="./images/work/Tonic-(2).png"
-            alt="Tonic Image"
+            src="Images/work/Tonic-(2).png"
+            alt="yoga image"
             class="snapshot-portfolio"
           />
-          <div class="left-block">
-            <div class="title-box">
-              <h2 class="project-title">Multi-post Stories</h2>
-              <div class="canopy">
-                <div class="client">CANOPY</div>
-                <div class="counter"></div>
-                <div class="role">Back End Dev</div>
-                <div class="counter"></div>
-                <div class="year">2015</div>
-              </div>
-            </div>
-            <p class="description-box">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <div class="tag-box">
-              <ul class="tags">
-                <li class="tag">HTML</li>
-                <li class="tag">CSS</li>
-                <li class="tag">Javascript</li>
-              </ul>
-            </div>
-            <div class="action-box">
-              <button class="btn">See Project</button>
-            </div>
+          <img
+            src="./Images/third-desktop.png"
+            alt="facebook image"
+            class="desktop"
+          />
+        </div>
+        <div class="right">
+          <nav class="title">
+            <h2 class="project-title">Tonic</h2>
+            <nav class="content">
+              <div class="clint">Canopy</div>
+              <div class="counter"></div>
+              <div class="role">Back End Dev</div>
+              <div class="counter"></div>
+              <div class="year">2015</div>
+            </nav>
+          </nav>
+          <p class="description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <div class="main-button">
+            <ul class="buttons">
+              <li class="button">HTML</li>
+              <li class="button">CSS</li>
+              <li class="button">Javascript</li>
+            </ul>
+          </div>
+          <div class="more">
+            <button class="btn btn-project" type="button">See Project</button>
           </div>
         </div>
-        <!-- End of fourth card -->
-      </section>
-      <!-- End of Work Section -->
+      </div>
+      <div class="card-work" id="card-four">
+        <div class="left">
+          <img
+            src="Images/work/multipost.png"
+            alt="availablity image"
+            class="snapshot-portfolio"
+          />
+          <img
+            src="./Images/fourth-desktop.png"
+            alt="navigate image"
+            class="desktop"
+          />
+        </div>
 
-      <!--About Myself Section-->
-
-      <!-- ABOUT MYSELF SECTION -->
-      <section id="aboutmyself">
-        <div class="top">
-          <h2 class="about">About <br />Myself</h2>
-          <p class="para">
+        <div class="right">
+          <nav class="title">
+            <h2 class="project-title">Multi-Post Stories</h2>
+            <nav class="content">
+              <div class="clint">Canopy</div>
+              <div class="counter"></div>
+              <div class="role">Back End Dev</div>
+              <div class="counter"></div>
+              <div class="year">2015</div>
+            </nav>
+          </nav>
+          <p class="description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <div class="main-button">
+            <ul class="buttons">
+              <li class="button">HTML</li>
+              <li class="button">CSS</li>
+              <li class="button">Javascript</li>
+            </ul>
+          </div>
+          <div class="more">
+            <button class="btn btn-project" type="button">See Project</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="last">
+      <section class="about-myself">
+        <div class="first">
+          <h2 class="intro">About <br />Myself</h2>
+          <p class="info">
             Hello I’m a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience! If
             you like what you see and have a project you need coded, don’t
             hestiate to contact me.
           </p>
-          <div class="social-media">
-            <div class="supporting-text">
-              <h3 class="letsconnect">LET’S CONNECT</h3>
+          <div class="social-media-icons">
+            <div class="text">
+              <h3 class="l-connect">LET'S CONNECT</h3>
             </div>
-            <ul class="social-media-icons">
-              <li class="social-icon">
-                <a href="#">
-                  <img src="./images/Github.png" alt="github icon" />
-                </a>
+            <ul>
+              <li>
+                <a href="#"
+                  ><img
+                    src="./Images/twitter.png"
+                    alt="Twitter Icon"
+                    class="twitter"
+                /></a>
               </li>
-              <li class="social-icon">
-                <a href="#">
-                  <img src="./images/Linkedin-icon.png" alt="linkedin icon" />
-                </a>
+              <li>
+                <a href="#"
+                  ><img
+                    src="./Images/Linkedin-icon.png"
+                    alt="linkedin Icon"
+                    class="linkedin"
+                /></a>
               </li>
-              <li class="social-icon">
+              <li>
                 <a href="#">
-                  <img src="./images/twofingers.png" alt="two finger icon" />
-                </a>
+                  <img
+                    src="./Images/Mail.png"
+                    alt="Mail Icon"
+                    class="mail"
+                /></a>
               </li>
-              <li class="social-icon">
+              <li>
                 <a href="#">
-                  <img src="./images/twitter.png" alt="twitter icon" />
-                </a>
+                  <img
+                    src="./Images/Github.png"
+                    alt="Github Icon"
+                    class="github"
+                /></a>
               </li>
-              <li class="social-icon">
-                <a href="#">
-                  <img src="./images/Mail.png" alt="mail icon" />
-                </a>
+              <li>
+                <a href="#"
+                  ><img
+                    src="./Images/twofingers.png"
+                    alt="Other Icon"
+                /></a>
               </li>
             </ul>
           </div>
-          <button class="btn btn-resume">Get my resume</button>
+          <div class="more">
+            <button class="btn btn-resume" type="button">Get my resume</button>
+          </div>
         </div>
-
-        <!-- Skills acquired-->
-
-        <ul class="skillset">
-          <li class="languages">
-            <div class="lang-head">
+        <ul class="second">
+          <li class="language">
+            <div class="lang-section">
               <h2>Languages</h2>
-              <img src="./images/down-arrow.png" alt="Arrow Down" />
+              <img src="Images/down-arrow.png" alt="Arrow" />
             </div>
-            <ul class="language-list">
-              <li class="lang">
-                <img src="./images/js-Ellipse.png" alt="Javascript Image" />
-                <h3>Javascript</h3>
-              </li>
-              <li class="lang">
-                <img src="./images/html.png" alt="HTML Image" />
+            <ul class="languages">
+              <li class="lname">
+                <img src="Images/html.png" alt="html Icon" />
                 <h3>HTML</h3>
               </li>
-              <li class="lang">
-                <img src="./images/css-elipse.png" alt="CSS Image" />
+              <li class="desktop-version">
+                <img src="./images/js-Ellipse.png" alt="js-icon"/>
+                <hx>Javascript</hx>
+              </li>
+              <li class="lname">
+                <img src="Images/css-elipse.png" alt="Css Icon" />
                 <h3>CSS</h3>
               </li>
+              <li class="desktop-version">
+                <img src="./images/html.png" alt="html-tag"/>
+                <hx>HTML</hx>
+              </li>
+              <li class="lname">
+                <img src="Images/js-Ellipse.png" alt="Js Icon" />
+                <h3>Javascript</h3>
+              </li>
+              <li class="desktop-version">
+                <img src="./images/css-elipse.png" alt="css-icon"/>
+                <hx>CSS</hx>
+              </li>
             </ul>
           </li>
-          <li class="frameworks">
-            <h2>Frameworks</h2>
-            <img src="./images/Disabled.png" alt="Arrow Right" />
+          <li class="last">
+            <h2>Framework</h2>
+            <img src="Images/Disabled.png" alt="arrow" />
           </li>
-          <li class="skills">
+          <li class="skill">
             <h2>Skills</h2>
-            <img src="./images/Disabled22.png" alt="Arrow Right" />
+            <img src="Images/Disabled22.png" alt="arrow" />
           </li>
         </ul>
-        <!-- End of SkillSet -->
       </section>
-
-      <!-- Contact-Form-->
-      <footer class="white-bg">
-        <div class="contact-section">
-          <h2 class="contact-heading">Contact me</h2>
-          <p class="contact-para">
-            If you have an application you are interested in developing, a
-            feature that you need built or a project that needs coding. I’d love
-            to help with it
-          </p>
-          <form
-            action="https://formspree.io/f/mvollnwk"
-            method="post"
-            class="contact-form"
-          >
-            <ul>
-              <li>
-                <label for="name"></label>
-                <input
-                  type="text"
-                  id="name"
-                  name="username"
-                  maxlength="30"
-                  placeholder="Michael"
-                  required
-                />
-              </li>
-              <li>
-                <label for="email"></label>
-                <input
-                  type="email"
-                  id="email"
-                  name="useremail"
-                  placeholder="nosaguobadia1376@gmail.com"
-                  required
-                />
-              </li>
-              <li>
-                <label for="message"></label>
-                <textarea
-                  name="message"
-                  id="message"
-                  maxlength="500"
-                  rows="5"
-                  placeholder="Write your message here"
-                  required
-                ></textarea>
-              </li>
-            </ul>
-            <button class="btn btn-contact" type="submit">Get it Touch</button>
-          </form>
-        </div>
-      </footer>
     </div>
+    <footer class="contact">
+      <h1 class="contact-title">Contact me</h1>
+      <p class="contact-description">
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I’d love to help
+        with it
+      </p>
+      <form
+        action="https://formspree.io/f/"
+        class="contact-form"
+        method="POST"
+      >
+        <ul class="inputs">
+          <li>
+            <input
+              type="text"
+              value="Michael"
+              required
+              placeholder="Enter Your Name"
+              maxlength="30"
+              id="name"
+            />
+          </li>
+          <li>
+            <input
+              type="email"
+              value="madetunji1376@gmail.com"
+              placeholder="Enter Your Email"
+              id="email"
+              required
+            />
+          </li>
+          <li>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="8"
+              maxlength="500"
+              placeholder="Write your message here"
+              required
+            ></textarea>
+          </li>
+        </ul>
+        <button class="get-touch" type="submit">Get It Touch</button>
+      </form>
+      <img
+        src="./images/header-background-shape-desktop.svg"
+        class="Shape"
+        alt="Shape icon"
+      />
+    </footer>
   </body>
 </html>
