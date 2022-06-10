@@ -578,7 +578,6 @@ body {
   margin-top: 340px;
   outline: none;
   border: none;
-  transform: translate(3ch, 3mm);
 }
 
 #name,
@@ -596,7 +595,17 @@ body {
   padding-left: 12px;
   padding-top: 4px;
   border: 1px solid #fff;
+  
 }
+
+.contact .contact-form .inputs li {
+  transition: transform;
+}
+
+ ::placeholder {
+  transform: translate(4px);
+}
+
 
 #message {
   font-family: "Poppins", sans-serif;
@@ -613,6 +622,7 @@ body {
   padding-top: 12px;
   border: none;
   outline: none;
+  transition: transform;
 }
 
 .get-touch {
