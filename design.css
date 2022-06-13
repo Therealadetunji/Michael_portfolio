@@ -28,11 +28,6 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  transition-duration: 1000ms;
-}
-
-.logo:hover {
-  transform: rotate(360deg);
 }
 
 .logo a {
@@ -46,8 +41,14 @@ body {
   font-size: 18px;
   line-height: 20px;
   text-decoration: none;
+  animation:rotating 1s; 
 }
 
+@keyframes rotating {
+  50% {
+    transform: rotate(360deg);
+  }
+}
 .headline {
   display: flex;
   justify-content: center;
