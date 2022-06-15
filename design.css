@@ -41,7 +41,7 @@ body {
   font-size: 18px;
   line-height: 20px;
   text-decoration: none;
-  animation:rotating 1s; 
+  animation: rotating 1s; 
 }
 
 @keyframes rotating {
@@ -49,6 +49,7 @@ body {
     transform: rotate(360deg);
   }
 }
+
 .headline {
   display: flex;
   justify-content: center;
@@ -596,17 +597,15 @@ body {
   padding-left: 12px;
   padding-top: 4px;
   border: 1px solid #fff;
-  
 }
 
 .contact .contact-form .inputs li {
   transition: transform;
 }
 
- ::placeholder {
+::placeholder {
   transform: translate(4px);
 }
-
 
 #message {
   font-family: "Poppins", sans-serif;
