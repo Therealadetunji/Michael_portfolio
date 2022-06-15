@@ -41,7 +41,6 @@ body {
   font-size: 18px;
   line-height: 20px;
   text-decoration: none;
-  animation: 1s; 
 }
 
 @keyframes rotating {
