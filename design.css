@@ -41,14 +41,47 @@ body {
   font-size: 18px;
   line-height: 20px;
   text-decoration: none;
-  animation: rotating 1s;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  /* width: 25px; 
+  height: 3px; */
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-bar {
+  position: fixed;
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  flex-direction: column;
+  background-color: #2230d2;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.MB {
+  margin: 16px 0;
+}
+
+.menu-bar.active {
+  left: 0;
+}
+/* animation: rotating 1s;
 }
 
 @keyframes rotating {
   50% {
     transform: rotate(360deg);
   }
-}
+} */
 
 .headline {
   display: flex;
