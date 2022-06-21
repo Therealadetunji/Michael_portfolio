@@ -31,7 +31,7 @@ li {
   position: fixed;
   display: block;
   left: -100%;
-  top: 0px;
+  top: 0;
   gap: 0;
   flex-direction: column;
   background-color: #6070ff;
@@ -152,7 +152,6 @@ li {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  list-style: 20px;
   color: #172b4d;
   display: flex;
   align-items: center;
@@ -770,7 +769,6 @@ li {
   }
 
   .nav-menu {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 60px;
@@ -806,7 +804,6 @@ li {
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
-    list-style: 20px;
     color: #172b4d;
     display: flex;
     flex: none;
