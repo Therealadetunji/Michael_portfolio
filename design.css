@@ -14,74 +14,122 @@ body {
   position: relative;
 }
 
-.toolbar {
+li {
+  list-style: none;
+}
+
+.navbar {
   display: flex;
   justify-content: space-between;
-  margin-left: 24px;
-  margin-right: 16px;
-  margin-top: 58px;
+  align-items: center;
+  padding: 0 24px;
+  min-height: 70px;
+  text-align: right;
 }
 
-.logo {
+.nav-menu {
+  position: fixed;
+  display: block;
+  left: -100%;
+  top: 0px;
+  gap: 0;
+  flex-direction: column;
+  background-color: #6070ff;
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+  height: 100vh;
+}
+
+.Close {
+  display: flex;
+  padding-left: 90%;
+  font-size: large;
+  font-weight: 100;
+  margin-top: 25px;
+  color: white;
+}
+
+.NavMenu {
+  display: none;
+}
+
+.NavMenu.mike {
+  display: block;
+}
+
+.nav-item {
+  margin: 35px 28px;
+}
+
+.nav-menu.active {
+  position: fixed;
+  left: 0;
+}
+
+.nav-branding {
   width: 76px;
   height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.logo a {
-  color: #6070ff;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  align-items: center;
-  text-align: center;
-  display: flex;
   font-size: 18px;
   line-height: 20px;
-  text-decoration: none;
 }
 
-.icon {
+.navbar .nav-branding {
+  color: #6070ff;
+  text-decoration: none;
+  /* margin-left: 10%; */
+  animation: rotating 1s;
+}
+
+.navbar ul li a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  height: 24px;
+  left: 3px;
+  right: 68px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.hamburger {
+  display: block;
   cursor: pointer;
+  color: white;
 }
 
 .bar {
   display: block;
-  /* width: 25px; 
-  height: 3px; */
-  margin: 5px auto;
+  width: 19px;
+  height: 2px;
+  margin: 6px auto;
   -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  background-color: #6070ff;
+}
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
 }
 
-.menu-bar {
-  position: fixed;
-  left: -100%;
-  top: 70px;
-  gap: 0;
-  flex-direction: column;
-  background-color: #2230d2;
-  width: 100%;
-  transition: 0.3s;
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
 }
 
-.MB {
-  margin: 16px 0;
-}
-
-.menu-bar.active {
-  left: 0;
-}
-/* animation: rotating 1s;
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 @keyframes rotating {
   50% {
     transform: rotate(360deg);
   }
-} */
+}
 
 .headline {
   display: flex;
@@ -94,10 +142,6 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 130px 24px;
-}
-
-.menu {
-  display: none;
 }
 
 .headline h1 {
@@ -707,73 +751,41 @@ body {
     font-family: "Poppins", sans-serif;
   }
 
-  .toolbar {
-    display: flex;
-    margin-top: -10px;
-    justify-content: space-between;
-    width: 100%;
-    padding-bottom: 8px;
-    background: white;
-    margin-left: 0;
-    padding-right: 5%;
-  }
-
-  .icon {
+  .navbar ul li a {
     display: none;
   }
 
-  .logo {
-    width: 190px;
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    min-height: 70px;
+    text-align: right;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    width: 63px;
     height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-left: 7%;
-  }
-
-  .toolbar #LOGO {
-    color: #6070ff;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    text-decoration: none;
-    padding-top: 40px;
-  }
-
-  .menu {
-    width: 200px;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding-right: 30px;
-    padding-bottom: 39px;
-  }
-
-  .menu-bar {
-    width: 30%;
-    column-gap: 30px;
-    display: flex;
-    justify-content: space-around;
-    padding-right: 10%;
-  }
-
-  .MB {
-    display: inline;
-    list-style-type: none;
-  }
-
-  .menu ul li a {
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #344563;
+    padding-left: 30%;
+  }
+
+  .nav-menu {
+    display: none;
   }
 
   .headline {

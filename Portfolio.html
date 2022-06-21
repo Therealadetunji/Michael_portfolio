@@ -8,21 +8,31 @@
     <title>Michael’s Portfolio</title>
   </head>
   <body>
-    <header class="toolbar">
-      <div class="logo">
-        <a id="LOGO" href="#"><b>My Logo</b></a>
-      </div>
-      <nav class="icon">
-        <img class="bar" src="./images/Union.png" alt="Menu icon" />
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-branding">My Logo </a>
+        <menu class="NavMenu">
+          <ul class="nav-menu active">
+            <span class="Close">X</span>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </menu>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
-      <div class="menu">
-        <ul class="menu-bar">
-          <li class="MB"><a href="#">Portfolio</a></li>
-          <li class="MB"><a href="#">About</a></li>
-          <li class="MB"><a href="#">Contact</a></li>
-        </ul>
-      </div>
     </header>
+
     <section class="headline">
       <h1>I'm Michael <br />Glad to see you!</h1>
       <p>
@@ -72,7 +82,7 @@
       </div>
     </section>
 
-    <section id="work">
+    <section class="work" id="work">
       <div class="card-work" id="card-one">
         <div class="left">
           <img
@@ -235,6 +245,7 @@
         </div>
       </div>
     </section>
+
     <div class="last">
       <section class="about-myself">
         <div class="first">
@@ -382,5 +393,6 @@
         alt="background-image icon"
       />
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
