@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
 }
 
 html,
@@ -41,6 +41,15 @@ li {
   height: 100vh;
 }
 
+.Close {
+  display: flex;
+  padding-left: 90%;
+  font-size: large;
+  font-weight: 100;
+  margin-top: 25px;
+  color: white;
+}
+
 .NavMenu {
   display: none;
 }
@@ -61,7 +70,7 @@ li {
 .nav-branding {
   width: 76px;
   height: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -82,7 +91,7 @@ li {
   height: 24px;
   left: 3px;
   right: 68px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -138,7 +147,7 @@ li {
 .headline h1 {
   width: 327px;
   height: 150px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -154,7 +163,7 @@ li {
 .headline p {
   width: 327px;
   height: 100px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -165,7 +174,7 @@ li {
 
 .headline h2 {
   color: #7f8cff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -257,7 +266,7 @@ li {
   font-weight: 700;
   font-size: 32px;
   color: #172b4d;
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
 }
 
 .content {
@@ -320,7 +329,7 @@ li {
 }
 
 .description {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -388,7 +397,7 @@ li {
 }
 
 .btn-project {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -435,7 +444,7 @@ li {
 .first .intro {
   height: 101px;
   width: 327px;
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -443,7 +452,7 @@ li {
 }
 
 .info {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -467,7 +476,7 @@ li {
   color: #396df2;
   background-color: #fff;
   margin-top: 60px;
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.03em;
@@ -516,7 +525,7 @@ li {
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -562,7 +571,7 @@ li {
 }
 
 .l-connect {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -609,7 +618,7 @@ li {
 }
 
 .contact-title {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -629,7 +638,7 @@ li {
   height: 102px;
   left: 24px;
   top: 4732px;
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   text-align: center;
   font-style: normal;
   font-weight: 400;
@@ -651,7 +660,7 @@ li {
 
 #name,
 #email {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -675,7 +684,7 @@ li {
 }
 
 #message {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -701,7 +710,7 @@ li {
   border-radius: 8px;
   width: 120px;
   height: 48px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
@@ -738,7 +747,7 @@ li {
 
 @media only screen and (min-width: 768px) {
   body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
   .navbar ul li a {
@@ -765,7 +774,7 @@ li {
     gap: 60px;
     width: 63px;
     height: 20px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -790,7 +799,7 @@ li {
     height: 120px;
     margin-left: 20%;
     margin-top: -8%;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -806,7 +815,7 @@ li {
     width: 70%;
     height: 100px;
     margin-left: 20%;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -817,7 +826,7 @@ li {
 
   .headline .connect {
     color: #7f8cff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
