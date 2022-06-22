@@ -5,24 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="design.css" />
-    <title>Michael Portfolio</title>
+    <title>Michael’s Portfolio</title>
   </head>
   <body>
-    <header class="toolbar">
-      <div class="logo">
-        <a id="LOGO" href="#"><b>My Logo</b></a>
-      </div>
-      <nav class="icon">
-        <img src="./images/Union.png" alt="Menu icon" />
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-branding">My Logo </a>
+        <menu class="NavMenu">
+          <ul class="nav-menu active">
+            <span class="Close">X</span>
+            <li class="nav-item">
+              <a href="#work" class="nav-link1">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link2">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link3">Contact</a>
+            </li>
+          </ul>
+        </menu>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
-      <div class="menu">
-        <ul class="menu-bar">
-          <li class="MB"><a href="#">Portfolio</a></li>
-          <li class="MB"><a href="#">About</a></li>
-          <li class="MB"><a href="#">Contact</a></li>
-        </ul>
-      </div>
     </header>
+
     <section class="headline">
       <h1>I'm Michael <br />Glad to see you!</h1>
       <p>
@@ -30,7 +40,7 @@
         website Look through some of my work and experience! If you like what
         you see and have a project you need coded, don’t hestiate to contact me.
       </p>
-      <h3 class="connect">LET'S CONNECT</h3>
+      <h2 class="connect">LET'S CONNECT</h2>
       <div class="social-media-icons">
         <ul>
           <li>
@@ -51,18 +61,12 @@
           </li>
           <li>
             <a href="#">
-              <img
-                src="./images/Mail.png"
-                alt="Mail Icon"
-                class="mail"
+              <img src="./images/Mail.png" alt="Mail Icon" class="mail"
             /></a>
           </li>
           <li>
             <a href="#">
-              <img
-                src="./images/Github.png"
-                alt="Github Icon"
-                class="github"
+              <img src="./images/Github.png" alt="Github Icon" class="github"
             /></a>
           </li>
 
@@ -70,7 +74,7 @@
             <a href="#"
               ><img
                 src="./images/twofingers.png"
-                alt="Other Icon"
+                alt="two fingers Icon"
                 class="other"
             /></a>
           </li>
@@ -78,8 +82,7 @@
       </div>
     </section>
 
-
-    <section id="work">
+    <section class="work" id="work">
       <div class="card-work" id="card-one">
         <div class="left">
           <img
@@ -242,7 +245,8 @@
         </div>
       </div>
     </section>
-    <div class="last">
+
+    <div class="last" id="about">
       <section class="about-myself">
         <div class="first">
           <h2 class="intro">About <br />Myself</h2>
@@ -275,10 +279,7 @@
               </li>
               <li>
                 <a href="#">
-                  <img
-                    src="./Images/Mail.png"
-                    alt="Mail Icon"
-                    class="mail"
+                  <img src="./Images/Mail.png" alt="Mail Icon" class="mail"
                 /></a>
               </li>
               <li>
@@ -291,9 +292,7 @@
               </li>
               <li>
                 <a href="#"
-                  ><img
-                    src="./images/twofingers.png"
-                    alt="Other Icon"
+                  ><img src="./images/twofingers.png" alt="twofingers Icon"
                 /></a>
               </li>
             </ul>
@@ -306,7 +305,7 @@
           <li class="language">
             <div class="lang-section">
               <h2>Languages</h2>
-              <img src="./images/down-arrow.png" alt="Arrow" />
+              <img src="./images/down-arrow.png" alt="down-Arrow" />
             </div>
             <ul class="languages">
               <li class="lname">
@@ -314,7 +313,7 @@
                 <h3>HTML</h3>
               </li>
               <li class="desktop-version">
-                <img src="./images/js-Ellipse.png" alt="js-icon"/>
+                <img src="./images/js-Ellipse.png" alt="js-icon" />
                 <hx>Javascript</hx>
               </li>
               <li class="lname">
@@ -322,7 +321,7 @@
                 <h3>CSS</h3>
               </li>
               <li class="desktop-version">
-                <img src="./images/html.png" alt="html-tag"/>
+                <img src="./images/html.png" alt="html-tag" />
                 <hx>HTML</hx>
               </li>
               <li class="lname">
@@ -330,34 +329,30 @@
                 <h3>Javascript</h3>
               </li>
               <li class="desktop-version">
-                <img src="./images/css-elipse.png" alt="css-icon"/>
+                <img src="./images/css-elipse.png" alt="css-icon" />
                 <hx>CSS</hx>
               </li>
             </ul>
           </li>
           <li class="last">
             <h2>Framework</h2>
-            <img src="./images/Disabled.png" alt="arrow" />
+            <img src="./images/Disabled.png" alt="right-arrow" />
           </li>
           <li class="skill">
             <h2>Skills</h2>
-            <img src="./images/Disabled.png" alt="arrow" />
+            <img src="./images/Disabled.png" alt="right-arrow" />
           </li>
         </ul>
       </section>
     </div>
-    <footer class="contact">
+    <footer class="contact" id="contact">
       <h1 class="contact-title">Contact me</h1>
       <p class="contact-description">
         If you have an application you are interested in developing, a feature
         that you need built or a project that needs coding. I’d love to help
         with it
       </p>
-      <form
-        action="https://formspree.io/f/"
-        class="contact-form"
-        method="POST"
-      >
+      <form action="https://formspree.io/f/" class="contact-form" method="POST">
         <ul class="inputs">
           <li>
             <input
@@ -367,7 +362,6 @@
               placeholder="Enter Your Name"
               maxlength="30"
               id="name"
-              
             />
           </li>
           <li>
@@ -396,8 +390,9 @@
       <img
         src="./images/header-background-shape-desktop.svg"
         class="Shape"
-        alt="Shape icon"
+        alt="background-image icon"
       />
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
