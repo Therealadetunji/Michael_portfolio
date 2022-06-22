@@ -41,15 +41,6 @@ li {
   height: 100vh;
 }
 
-.Close {
-  display: flex;
-  padding-left: 90%;
-  font-size: large;
-  font-weight: 100;
-  margin-top: 25px;
-  color: white;
-}
-
 .NavMenu {
   display: none;
 }

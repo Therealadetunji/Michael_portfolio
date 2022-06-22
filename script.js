@@ -6,8 +6,3 @@ hamburger.onclick = () => {
   //call-back function
   navMenu.classList.add("mike");
 };
-
-Close.onclick = () => {
-  //call-back function
-  navMenu.classList.remove("mike");
-};
