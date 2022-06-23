@@ -11,7 +11,7 @@
 - Frameworks
 - html and css
 
--Online version: https://therealadetunji.github.io/Michael_portfolio/
+-Online version: https://therealadetunji.github.io/
 
 ## Getting Started
 
