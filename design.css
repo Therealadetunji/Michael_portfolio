@@ -521,11 +521,6 @@ li {
   transition-duration: 250ms;
 }
 
-small {
-  /* padding: 20px; */
-  /* visibility: hidden; */
-}
-
 .card-work .btn-project:hover {
   background: #040f70;
   color: #fff;
