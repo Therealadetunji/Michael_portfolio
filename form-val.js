@@ -1,20 +1,15 @@
 // const email = document.getElementById('email');
-document.querySelector('.get-touch').addEventListener('click', (event) => {
-  validateInput();
-});
-
-function validateInput() {
+const submit = document.querySelector('.get-touch');
+submit.addEventListener('click', validate);
+function validate(e) {
+  //   e.preventDefault();
+  const email = document.getElementById('email');
   if (email.value === email.value.toLowerCase()) {
-    let parent = email.parentElement;
-    let message = parent.querySelector('small');
-    message.style.visibility = 'hidden';
-    message.innerText = '';
+    alert('done');
   } else {
-    let parent = email.parentElement;
-    let message = parent.querySelector('small');
-    message.style.visibility = 'visible';
-    message.innerText = 'Email cannot be uppercase';
-    event.preventDefault();
+    const err = document.querySelector('.err');
+    e.preventDefault();
+    err.innerHTML = 'Email cannot be uppercase';
   }
 }
 

@@ -80,7 +80,7 @@ console.log(data);
 const projectsection = document.querySelector('.work'); // to get the grid and working on that work section
 data.forEach((element) => {
   // forEach or map
-  console.log(element);
+  //   console.log(element);
   const allCard = `
   <div class="card-work" id="card-one">
         <div class="left">
@@ -117,7 +117,7 @@ data.forEach((element) => {
             </ul>
           </div>
           <div class="more">
-            <button class="btn btn-project" type="button">See Project</button>
+            <button class="btn btn-project" type="button">See Project</button> 
           </div>
         </div>
       </div>
@@ -131,5 +131,20 @@ clickproject.forEach((btn) => {
   btn.onclick = () => {
     const pop = document.querySelector('.pop');
     pop.classList.add('show');
+    data.forEach((e) => {
+      const Desk = document.querySelector('.Desk');
+      //   const img = document.querySelector('.Img');
+      //   const Tnc = document.querySelector('.Tnc');
+      const newclint = document.querySelector('.new-clint');
+
+      Desk.innerHTML = `${e.description.featured}`;
+      newclint.innerHTML = `${e.workdescription.company}`;
+      //   img.src = `${e.liveurl}`;
+      //   Tnc.innerHTML = `${e.name}`;
+      //   console.log(e.liveurl);
+      console.log(e.description.featured);
+      //   console.log(e.name);
+      console.log(e.workdescription.company);
+    });
   };
 });
