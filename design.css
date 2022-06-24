@@ -186,7 +186,6 @@ li {
 
 .lang {
   display: flex;
-  /* justify-content: flex-end; */
   width: 100%;
 }
 
@@ -215,7 +214,6 @@ li {
 .pop-button {
   display: flex;
   width: 300px;
-  /* margin-left: 130px; */
 }
 
 .pop-button .pop-btn {
