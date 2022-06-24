@@ -67,6 +67,10 @@ li {
   left: 0;
 }
 
+.cancellation {
+  cursor: pointer;
+}
+
 .nav-branding {
   width: 76px;
   height: 20px;
@@ -137,7 +141,7 @@ li {
 }
 
 .pop.show {
-  display: flex;
+  display: block;
 }
 
 .top {

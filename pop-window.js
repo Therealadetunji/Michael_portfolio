@@ -126,25 +126,33 @@ data.forEach((element) => {
 });
 
 const clickproject = document.querySelectorAll('.btn-project');
+const cancelling = document.querySelector('.cancellation');
 
 clickproject.forEach((btn) => {
   btn.onclick = () => {
     const pop = document.querySelector('.pop');
     pop.classList.add('show');
+
     data.forEach((e) => {
       const Desk = document.querySelector('.Desk');
-      //   const img = document.querySelector('.Img');
-      //   const Tnc = document.querySelector('.Tnc');
+      const Tnc = document.querySelector('.Tnc');
       const newclint = document.querySelector('.new-clint');
+      const workrole = document.querySelector('.role');
+      const year = document.querySelector('.year');
+      const langbuttons = document.querySelector('.buttons');
 
       Desk.innerHTML = `${e.description.featured}`;
       newclint.innerHTML = `${e.workdescription.company}`;
-      //   img.src = `${e.liveurl}`;
-      //   Tnc.innerHTML = `${e.name}`;
+      Tnc.innerHTML = `${e.name}`;
+      workrole.innerHTML = `${e.workdescription.role}`;
+      year.innerHTML = `${e.workdescription.year}`;
+
       //   console.log(e.liveurl);
       console.log(e.description.featured);
-      //   console.log(e.name);
+      console.log(e.name);
       console.log(e.workdescription.company);
+      console.log(e.workdescription.role);
+      console.log(e.workdescription.year);
     });
   };
 });
