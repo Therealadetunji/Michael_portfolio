@@ -132,6 +132,9 @@ clickproject.forEach((btn) => {
   btn.onclick = () => {
     const pop = document.querySelector('.pop');
     pop.classList.add('show');
+    cancelling.onclick = () => {
+      pop.classList.remove('show');
+    };
 
     data.forEach((e) => {
       const Desk = document.querySelector('.Desk');
@@ -147,7 +150,6 @@ clickproject.forEach((btn) => {
       workrole.innerHTML = `${e.workdescription.role}`;
       year.innerHTML = `${e.workdescription.year}`;
 
-      //   console.log(e.liveurl);
       console.log(e.description.featured);
       console.log(e.name);
       console.log(e.workdescription.company);
