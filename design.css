@@ -338,7 +338,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px;
+  padding: 1px;
   gap: 12px;
   width: 327px;
   height: 552px;
@@ -867,13 +867,9 @@ li {
     font-family: 'Poppins', sans-serif;
   }
 
-  /* .navbar ul li a {
-    display: none;
-  } */
-
   .pop {
     position: absolute;
-    top: 0;
+    top: 500px;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.753);
@@ -892,11 +888,11 @@ li {
     padding: 16px;
     gap: 12px;
     width: 65%;
-    height: 552px;
+    height: 700px;
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    margin-top: 50%;
+    margin-top: 70%;
     overflow-y: scroll;
   }
 
