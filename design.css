@@ -149,13 +149,13 @@ li {
   flex-direction: column;
   padding: 16px;
   gap: 12px;
-  width: 65%;
-  height: 552px;
+  width: 70%;
+  height: 850px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 50%;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 .first-header {
