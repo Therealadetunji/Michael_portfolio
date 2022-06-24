@@ -542,6 +542,8 @@ li {
 .err {
   display: flex;
   margin: 10px 130px;
+  background: border-box;
+  background-color: #dfe1e6;
 }
 
 .about-myself {
