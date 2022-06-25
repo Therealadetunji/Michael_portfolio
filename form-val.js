@@ -34,6 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-fullNameForm.onchange = handleChange;
-emailForm.onchange = handleChange;
-messageForm.onchange = handleChange;
+fullNameForm.oninput = handleChange;
+emailForm.oninput = handleChange;
+messageForm.oninput = handleChange;
