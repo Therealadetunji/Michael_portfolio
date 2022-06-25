@@ -27,3 +27,11 @@ let infoString = localStorage.getItem('info');
 console.log('string saved in localStorage', infoString);
 
 let savedContact = JSON.parse(infoString);
+
+const input = document.getElementById('message');
+
+input.addEventListener('message', updateValue);
+
+function updateValue(e) {
+  e.infoString.value;
+}
