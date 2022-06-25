@@ -11,27 +11,29 @@ function validate(e) {
   }
 }
 
-const name = document.getElementById('name');
-const email = document.getElementById('email');
-const text = document.getElementById('message');
+const fullNameForm = document.getElementById('name');
+const emailForm = document.getElementById('email');
+const messageForm = document.getElementById('message');
 
-const contactObj = {
-  name: name.value,
-  email: email.value,
-  text: text.value,
-};
-
-localStorage.setItem('info', JSON.stringify(contactObj));
-
-let infoString = localStorage.getItem('info');
-console.log('string saved in localStorage', infoString);
-
-let savedContact = JSON.parse(infoString);
-
-const input = document.getElementById('message');
-
-input.addEventListener('message', updateValue);
-
-function updateValue(e) {
-  e.infoString.value;
+function handleChange() {
+  const formData = {
+    fullName: fullNameForm.value,
+    email: emailForm.value,
+    comment: messageForm.value,
+  };
+  localStorage.setItem('form', JSON.stringify(formData));
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const getFormValue = localStorage.getItem('form');
+  if (getFormValue) {
+    const formObject = JSON.parse(getFormValue);
+    fullNameForm.value = formObject.fullName;
+    emailForm.value = formObject.email;
+    messageForm.value = formObject.comment;
+  }
+});
+
+fullNameForm.onchange = handleChange;
+emailForm.onchange = handleChange;
+messageForm.onchange = handleChange;
