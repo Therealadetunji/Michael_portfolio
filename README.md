@@ -6,11 +6,14 @@
 
 ## Built With
 
-- html and css and javascript
+> 
+-   HTML
+-   css
+-   Javascript
 
 -Online version: https://therealadetunji.github.io/Michael_portfolio/
 
-👤 **Author1**
+👤 **Michael Adetunji**
 
 - GitHub: [@githubtherealadetunji](https://github.com/githubtherealadetunji)
 - Github: [@githubmilen=ale](https://github.com/milen-ale)
